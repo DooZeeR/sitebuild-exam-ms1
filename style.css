@@ -45,3 +45,54 @@ select{
   -webkit-appearance: none !important; 
   border-radius: 0;
 }
+
+h1 {
+  padding: 40px;
+  color: white;
+}
+
+#section-1 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #263c44;
+}
+
+#section-2 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2b7a78;
+}
+
+#btn-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #3aafa9;
+  font-size: 30px;
+  transform: translateX(-50%) translateY(-50%);
+}
+#btn-2 {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  height: 60px;
+  width: 200px;
+  background-color: #1f8f89;
+  font-size: 30px;
+}
+#btn-3 {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  height: 60px;
+  width: 200px;
+  color: #79e6e0;
+  background-color: #263c44;
+  font-size: 30px;
+  transform: translateX(-50%);
+}
