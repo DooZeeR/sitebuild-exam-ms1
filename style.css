@@ -76,6 +76,11 @@ h1 {
   font-size: 30px;
   transform: translateX(-50%) translateY(-50%);
 }
+
+#btn-1:hover {
+  background-color: #79e6e0;
+}
+
 #btn-2 {
   position: absolute;
   right: 40px;
@@ -85,6 +90,11 @@ h1 {
   background-color: #1f8f89;
   font-size: 30px;
 }
+
+#btn-2:hover {
+  background-color: #79e6e0;
+}
+
 #btn-3 {
   position: absolute;
   left: 50%;
@@ -95,4 +105,8 @@ h1 {
   background-color: #263c44;
   font-size: 30px;
   transform: translateX(-50%);
+}
+
+#btn-3:hover {
+  background-color: #1d5d74;
 }
